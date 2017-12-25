@@ -6,14 +6,18 @@
 //  Copyright © 2015年 Facebook. All rights reserved.
 //
 
-#import "SocietyLoginManager.h"
-#import "RCTEventDispatcher.h"
+#import "RNSocializeShare.h"
 #import "OpenShareHeader.h"
 
-@implementation SocietyLoginManager
+@implementation RNSocializeShare
 @synthesize bridge = _bridge;
 
-RCT_EXPORT_MODULE();
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
+RCT_EXPORT_MODULE(RNSocializeShare)
 
 RCT_EXPORT_METHOD(call) {
   [self _callback];

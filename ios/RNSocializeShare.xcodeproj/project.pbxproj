@@ -11,7 +11,7 @@
 		270D2FBC1FF0962300BE3A0D /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FAD1FF0962200BE3A0D /* OpenShare+Weibo.m */; };
 		270D2FBD1FF0962300BE3A0D /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FAF1FF0962200BE3A0D /* OpenShare+QQ.m */; };
 		270D2FBE1FF0962300BE3A0D /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FB01FF0962200BE3A0D /* OpenShare.m */; };
-		270D2FBF1FF0962300BE3A0D /* SocietyLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FB41FF0962200BE3A0D /* SocietyLoginManager.m */; };
+		270D2FBF1FF0962300BE3A0D /* RNSocializeShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FB41FF0962200BE3A0D /* RNSocializeShare.m */; };
 		270D2FC01FF0962300BE3A0D /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FB91FF0962300BE3A0D /* OpenShare+Weixin.m */; };
 		270D2FC11FF0962300BE3A0D /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 270D2FBA1FF0962300BE3A0D /* OpenShare+Alipay.m */; };
 /* End PBXBuildFile section */
@@ -38,10 +38,10 @@
 		270D2FB11FF0962200BE3A0D /* OpenShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
 		270D2FB21FF0962200BE3A0D /* OpenShare+QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+QQ.h"; sourceTree = "<group>"; };
 		270D2FB31FF0962200BE3A0D /* OpenShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShareHeader.h; sourceTree = "<group>"; };
-		270D2FB41FF0962200BE3A0D /* SocietyLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyLoginManager.m; sourceTree = "<group>"; };
+		270D2FB41FF0962200BE3A0D /* RNSocializeShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSocializeShare.m; sourceTree = "<group>"; };
 		270D2FB51FF0962200BE3A0D /* OpenShare+Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Renren.h"; sourceTree = "<group>"; };
 		270D2FB61FF0962200BE3A0D /* OpenShare+Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weibo.h"; sourceTree = "<group>"; };
-		270D2FB71FF0962300BE3A0D /* SocietyLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyLoginManager.h; sourceTree = "<group>"; };
+		270D2FB71FF0962300BE3A0D /* RNSocializeShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSocializeShare.h; sourceTree = "<group>"; };
 		270D2FB81FF0962300BE3A0D /* OpenShare+Alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Alipay.h"; sourceTree = "<group>"; };
 		270D2FB91FF0962300BE3A0D /* OpenShare+Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weixin.m"; sourceTree = "<group>"; };
 		270D2FBA1FF0962300BE3A0D /* OpenShare+Alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Alipay.m"; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 				270D2FAE1FF0962200BE3A0D /* OpenShare+Weixin.h */,
 				270D2FB91FF0962300BE3A0D /* OpenShare+Weixin.m */,
 				270D2FB31FF0962200BE3A0D /* OpenShareHeader.h */,
-				270D2FB71FF0962300BE3A0D /* SocietyLoginManager.h */,
-				270D2FB41FF0962200BE3A0D /* SocietyLoginManager.m */,
+				270D2FB71FF0962300BE3A0D /* RNSocializeShare.h */,
+				270D2FB41FF0962200BE3A0D /* RNSocializeShare.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270D2FBC1FF0962300BE3A0D /* OpenShare+Weibo.m in Sources */,
-				270D2FBF1FF0962300BE3A0D /* SocietyLoginManager.m in Sources */,
+				270D2FBF1FF0962300BE3A0D /* RNSocializeShare.m in Sources */,
 				270D2FBB1FF0962300BE3A0D /* OpenShare+Renren.m in Sources */,
 				270D2FBE1FF0962300BE3A0D /* OpenShare.m in Sources */,
 				270D2FC11FF0962300BE3A0D /* OpenShare+Alipay.m in Sources */,
